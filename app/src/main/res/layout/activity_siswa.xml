@@ -5,9 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".siswa"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/foto"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginLeft="20dp"
@@ -16,5 +18,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@mipmap/logo"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toRightOf="@+id/foto">
+
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
